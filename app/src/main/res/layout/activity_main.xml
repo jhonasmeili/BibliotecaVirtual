@@ -7,17 +7,71 @@
     android:orientation="vertical"
     android:background="#F9F9F9"
     android:padding="0dp"
-    tools:context="MainActivity">
-    <include layout="@layout/header"
-        android:id="@+id/header"/>
-
+    tools:context=".ui.MainActivity">
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:background="#225C6E"
+        android:gravity="center"
+        android:text="Minioteca"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
     <Button
-        android:id="@+id/button"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="10dp"
+        android:id="@+id/btnLivros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
         android:layout_marginTop="10dp"
-        android:text="Button"
+        android:text="livros"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/header"/>
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="Adicionar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnLivros"/>
+    <Button
+        android:id="@+id/btnConfig"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="Config"
+        app:layout_constraintStart_toEndOf="@id/btnAdicionar"
+        app:layout_constraintTop_toBottomOf="@id/btnLivros"/>
+    <Button
+        android:id="@+id/btnSuporte"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="Suporte"
+        app:layout_constraintStart_toEndOf="@id/btnConfig"
+        app:layout_constraintTop_toBottomOf="@id/btnLivros"/>
+    <Button
+        android:id="@+id/btnAvaliar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Avalie-nos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/footer"/>
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#225C6E"
+        android:textColor="@color/white"
+        android:text="footer"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
