@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Biblioteca Virtual</string>
+    <string name="app_name">Littlebrary</string>
+    <string name="books">Books</string>
+    <string name="add">Add Books</string>
+    <string name="contact">Contact</string>
+    <string name="rate">Rate us!</string>
+    <string name="footer">Developed by Antônio Francis on ARQDMO1 course</string>
+    <string name="filter">Search by Name</string>
+    <string name="book_name">Book Name</string>
+    <string name="book_genre">Genre</string>
+    <string name="book_synopsis">Synopsis</string>
+    <string name="book_text">Text</string>
+    <string name="ui_return">Return</string>
+    <string name="read">Read</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
 </resources>

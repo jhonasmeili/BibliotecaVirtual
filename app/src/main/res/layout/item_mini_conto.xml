@@ -17,7 +17,7 @@
         android:id="@+id/tvNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nome do Conto"
+        android:text="@string/book_name"
         android:textSize="16dp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="@id/imgFoto"
@@ -26,7 +26,7 @@
         android:id="@+id/tvGenero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Genero"
+        android:text="@string/book_genre"
         app:layout_constraintStart_toEndOf="@id/imgFoto"
         app:layout_constraintTop_toBottomOf="@id/tvNome"/>
 

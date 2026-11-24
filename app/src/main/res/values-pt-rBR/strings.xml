@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Minioteca</string>
+    <string name="books">Contos</string>
+    <string name="add">Adicionar Contos</string>
+    <string name="contact">Contato</string>
+    <string name="rate">Avalie-nos!</string>
+    <string name="footer">Desenvolvido por Antônio Francis na disciplina ARQDMO1</string>
+    <string name="filter">Filtrar por Nome</string>
+    <string name="book_name">Nome do Conto</string>
+    <string name="book_genre">Genero</string>
+    <string name="book_synopsis">Sinopse</string>
+    <string name="book_text">Texto</string>
+    <string name="ui_return">Voltar</string>
+    <string name="read">Ler</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="save">Salvar</string>
+</resources>

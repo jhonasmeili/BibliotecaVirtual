@@ -57,7 +57,7 @@ class CadastroActivity : AppCompatActivity() {
             val sinopse = binding.edtSinopse.text.toString()
             val texto = binding.edtTexto.text.toString()
 
-            if(foto.isNotBlank() && nome.isNotBlank() && genero.isNotBlank() && sinopse.isNotBlank() && texto.isNotBlank()){
+            if(nome.isNotBlank() && genero.isNotBlank() && sinopse.isNotBlank() && texto.isNotBlank()){
                 val novoMiniConto = MiniConto(
                     foto = foto,
                     nome = nome,
