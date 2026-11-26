@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="#F9F9F9"
+    android:background="@color/ui_background"
     android:padding="16dp"
     tools:context=".ui.CadastroActivity">
     <ImageView
@@ -68,6 +68,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/ui_return"
+        android:backgroundTint="@color/ui_standard_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>

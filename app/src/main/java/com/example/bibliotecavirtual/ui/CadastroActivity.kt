@@ -51,6 +51,11 @@ class CadastroActivity : AppCompatActivity() {
 
         binding.btnSalvar.setOnClickListener {
 
+            if(!::uriSelecionada.isInitialized){
+                Toast.makeText(this, "Selecione uma imagem", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
             val foto = uriSelecionada
             val nome = binding.edtNome.text.toString()
             val genero = binding.edtGenero.text.toString()

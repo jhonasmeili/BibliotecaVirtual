@@ -9,9 +9,9 @@ data class MiniConto(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
 
-    val foto: String,
-    val nome: String,
-    val genero: String,
-    val sinopse: String,
-    val texto: String
+    var foto: String,
+    var nome: String,
+    var genero: String,
+    var sinopse: String,
+    var texto: String
 ) : Serializable
